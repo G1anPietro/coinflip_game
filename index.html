@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>coin flip roulette</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/myLib.js"></script>
+    </head>
+    <body onload="initValues()">
+        <div class="flexDisplay">
+            <h1 style="color: gold;">Coin Flip</h1>
+            <h1>
+                <span style="color: black;">Roul</span>
+                <span style="color: red;">ette</span>
+            </h1>
+        </div>
+        <h1 id="win"></h1>
+
+        <img id="coin" src="img/head.png" alt="head">
+
+        <p style="text-align: center;">money:<span id="money"></span> current bet:<span id="bet"></span></p>
+        
+        <div class="flexDisplay">
+            <button onclick="betMoney(5)">$5</button>
+            <button onclick="betMoney(6)">$6</button>
+            <button onclick="betMoney(7)">$7</button>
+            <button onclick="betMoney(8)">$8</button>
+            <button onclick="betMoney(9)">$9</button>
+            <button onclick="betMoney(10)">$10</button>
+            <button onclick="coinFlip()">lancia</button>
+        </div>
+        
+    </body>
+</html>

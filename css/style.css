@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+img{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.flexDisplay{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
